@@ -1,5 +1,6 @@
 module.exports = {
   "stories": [
+    '../src/Intro.stories.mdx',
     "../src/**/*.stories.mdx",
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
@@ -11,4 +12,5 @@ module.exports = {
     '@storybook/addon-interactions',
   ],
   "framework": "@storybook/react",
+  staticDirs: ['../public'],
 };
